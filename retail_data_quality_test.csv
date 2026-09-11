@@ -1,0 +1,16 @@
+customer_id,name,email,phone,order_date,quantity,price,city
+C001,Alice Johnson,alice@example.com,+1-989-555-0101,2026-08-15,2,49.99,Detroit
+C002,Bob Smith,bob@example.com,9895550102,2026-08-16,1,19.99,Chicago
+,Charlie Brown,,3125550103,2026-08-17,3,29.99,Boston
+C004,   ,diana@example.com,3135550104,2026-08-18,2,39.99,Cleveland
+C005,Ethan Miller,ethan.example.com,7345550105,2026-08-19,1,59.99,Ann Arbor
+C006,Fiona Davis,fiona@example.com,123,2026-08-20,4,24.50,Lansing
+C007,George Wilson,george@example.com,5175550107,not-a-date,2,14.99,Flint
+C008,Hannah Moore,hannah@example.com,6165550108,2030-01-01,5,79.99,Grand Rapids
+C009,Ian Taylor,ian@example.com,2485550109,2026-08-22,0,9.99,Troy
+C010,Julia Anderson,julia@example.com,5865550110,2026-08-23,-3,12.99,Warren
+C011,Kevin Thomas,kevin@example.com,8105550111,2026-08-24,abc,17.99,Saginaw
+C012,Laura Jackson,laura@example.com,2315550112,2026-08-25,2,0,Traverse City
+C013,Michael White,michael@example.com,2695550113,2026-08-26,2,-5,Kalamazoo
+C014,Nina Harris,nina@example.com,9065550114,2026-08-27,1,bad,Marquette
+C002,Bob Smith,bob@example.com,9895550102,2026-08-16,1,19.99,Chicago

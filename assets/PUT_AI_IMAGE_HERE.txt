@@ -1,0 +1,6 @@
+Save your circular robot image as:
+
+assets/ai_bot.png
+
+The app will automatically use it for the 110x110 floating AI button.
+If it is missing, the app falls back to a robot emoji.

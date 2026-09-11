@@ -1,0 +1,30 @@
+{
+  "name": "Maheswara Reddy Varra",
+  "headline": "Data Engineer | AWS | PySpark | Databricks | Cloud | GenAI",
+  "summary": "Data Engineer focused on scalable data pipelines, cloud data platforms, data quality, lakehouse architecture, and AI-assisted data engineering.",
+  "education": [
+    {
+      "degree": "M.S. in Information Systems",
+      "institution": "Central Michigan University",
+      "status": "Completed"
+    },
+    {
+      "degree": "B.Tech in Electronics and Communication Engineering",
+      "institution": "QIS College of Engineering and Technology"
+    }
+  ],
+  "skills": {
+    "programming": ["Python", "SQL", "PySpark", "Apache Spark"],
+    "platforms": ["Databricks", "Apache Airflow", "Kafka"],
+    "cloud": ["AWS", "Azure", "GCP"],
+    "aws": ["S3", "Glue", "Athena", "Lambda", "CloudWatch", "IAM", "SNS", "Lake Formation"],
+    "devops": ["Terraform", "Docker", "GitHub Actions", "CI/CD"],
+    "data": ["ETL", "ELT", "Lakehouse", "Data Quality", "Data Modeling", "Delta Lake"],
+    "databases": ["PostgreSQL", "MySQL"],
+    "ai": ["Generative AI", "RAG", "Ollama"]
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/maheswara-reddy-varra",
+    "github": "https://github.com/maheswara11"
+  }
+}
