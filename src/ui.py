@@ -99,15 +99,32 @@ def apply_theme() -> None:
             display: none !important;
         }}
 
+        /* Keep Streamlit's top-right Share / GitHub / menu controls fully visible. */
         header[data-testid="stHeader"] {{
-            height: 0 !important;
-            min-height: 0 !important;
+            height: 46px !important;
+            min-height: 46px !important;
             background: transparent !important;
+            pointer-events: auto !important;
+            z-index: 10000 !important;
+        }}
+
+        [data-testid="stToolbar"] {{
+            top: 5px !important;
+            right: 12px !important;
+            z-index: 10001 !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }}
+
+        [data-testid="stToolbar"] button,
+        [data-testid="stToolbar"] a {{
+            visibility: visible !important;
+            opacity: 1 !important;
         }}
 
         .block-container {{
             max-width: 1500px;
-            padding-top: 0.65rem;
+            padding-top: 0.35rem;
             padding-bottom: 7rem;
             padding-left: 2.2rem;
             padding-right: 2.2rem;
