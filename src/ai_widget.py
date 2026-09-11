@@ -71,7 +71,7 @@ def render_ai_copilot(
 .st-key-global_ai_widget {{
     position: fixed !important;
     right: 24px !important;
-    bottom: 24px !important;
+    bottom: 88px !important;
     width: 72px !important;
     height: 72px !important;
     z-index: 1000000;
@@ -141,7 +141,7 @@ div[data-testid="stPopoverBody"]:has(.ai-panel-title) [data-testid="stChatMessag
 @media (max-width: 700px) {{
     .st-key-global_ai_widget {{
         right: 14px !important;
-        bottom: max(14px, env(safe-area-inset-bottom)) !important;
+        bottom: max(76px, calc(env(safe-area-inset-bottom) + 62px)) !important;
         width: 54px !important;
         height: 54px !important;
     }}
