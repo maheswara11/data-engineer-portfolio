@@ -101,16 +101,17 @@ def apply_theme() -> None:
 
         /* Keep Streamlit's top-right Share / GitHub / menu controls fully visible. */
         header[data-testid="stHeader"] {{
-            height: 46px !important;
-            min-height: 46px !important;
-            background: transparent !important;
+            height: 38px !important;
+            min-height: 38px !important;
+            background: var(--portfolio-bg) !important;
             pointer-events: auto !important;
             z-index: 10000 !important;
         }}
 
         [data-testid="stToolbar"] {{
-            top: 5px !important;
+            top: 2px !important;
             right: 12px !important;
+            height: 34px !important;
             z-index: 10001 !important;
             visibility: visible !important;
             opacity: 1 !important;
@@ -124,7 +125,7 @@ def apply_theme() -> None:
 
         .block-container {{
             max-width: 1500px;
-            padding-top: 0.35rem;
+            padding-top: 2.8rem;
             padding-bottom: 7rem;
             padding-left: 2.2rem;
             padding-right: 2.2rem;
@@ -150,7 +151,7 @@ def apply_theme() -> None:
         /* Top navigation */
         .st-key-top_nav {{
             position: sticky;
-            top: 0;
+            top: 42px;
             z-index: 9990;
             background: var(--portfolio-header);
             backdrop-filter: blur(16px);
@@ -426,6 +427,23 @@ def apply_theme() -> None:
             background:
                 radial-gradient(80% 90% at 12% 100%, rgba(85, 151, 255, 0.15), transparent 60%),
                 radial-gradient(60% 100% at 78% 110%, rgba(104, 99, 255, 0.13), transparent 65%);
+        }}
+
+        @media (max-width: 700px) {{
+            header[data-testid="stHeader"] {{
+                height: 36px !important;
+                min-height: 36px !important;
+            }}
+
+            [data-testid="stToolbar"] {{
+                top: 1px !important;
+                right: 6px !important;
+                height: 32px !important;
+            }}
+
+            .block-container {{
+                padding-top: 2.55rem;
+            }}
         }}
 
         @media (max-width: 900px) {{
